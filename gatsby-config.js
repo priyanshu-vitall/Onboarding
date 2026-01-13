@@ -1,10 +1,9 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `Onboard`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Onboard",
   },
-  plugins: [],
-}
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
+};
